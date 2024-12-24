@@ -35,6 +35,7 @@ public class DriverRepository : GenericRepository<Driver>, IDriverRepository
     {
         try
         {
+            _logger.LogInformation("Delete method called");
             Driver? entity = await _dbSet.FirstOrDefaultAsync(x => x.Id == id);
 
             if (entity is null)
@@ -58,6 +59,7 @@ public class DriverRepository : GenericRepository<Driver>, IDriverRepository
     {
         try
         {
+            _logger.LogInformation("Update method called");
             Driver? entity = await _dbSet.FirstOrDefaultAsync(x => x.Id == driver.Id);
 
             if (entity is null)
