@@ -12,7 +12,7 @@ public class CreateDriverAchievementRequest
     /// <summary>
     /// The driver's World Championship count.
     /// </summary>
-    public int Worldchampionships { get; set; }
+    public int WorldChampionships { get; set; }
     /// <summary>
     /// The driver's Fastest Lap count.
     /// </summary>
@@ -20,9 +20,9 @@ public class CreateDriverAchievementRequest
     /// <summary>
     /// The driver's Pole Position count.
     /// </summary>
-    public int PolePosition { get; set; }
+    public int PolePositions { get; set; }
     /// <summary>
     /// The driver's Wins count.
     /// </summary>
-    public int Wins { get; set; }
+    public int RaceWins { get; set; }
 }

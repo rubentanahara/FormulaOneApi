@@ -30,7 +30,7 @@ namespace FormulaOne.DataService.Migrations
                         .HasColumnType("TEXT")
                         .HasColumnName("DriverId");
 
-                    b.Property<int>("FastetLap")
+                    b.Property<int>("FastestLap")
                         .HasColumnType("INTEGER")
                         .HasColumnName("FastestLap");
 

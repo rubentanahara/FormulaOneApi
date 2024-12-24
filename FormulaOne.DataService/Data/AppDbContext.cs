@@ -58,7 +58,7 @@ public class AppDbContext : DbContext
                   .IsRequired()
                   .HasColumnName("PolePositions");
 
-            entity.Property(e => e.FastetLap)
+            entity.Property(e => e.FastestLap)
                   .IsRequired()
                   .HasColumnName("FastestLap");
 

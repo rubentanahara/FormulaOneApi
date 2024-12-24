@@ -19,6 +19,15 @@
 # Mono auto generated files
 mono_crash.*
 
+# Migrations folder
+Migrations/
+
+# db log files
+*.dbmdl
+*.db
+*.db-shm
+*.db-wal
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/

@@ -4,7 +4,7 @@ public class Achievement : BaseEntity
 {
     public int RaceWins { get; set; }
     public int PolePositions { get; set; }
-    public int FastetLap { get; set; }
+    public int FastestLap { get; set; }
     public int WorldChampionships { get; set; }
     public Guid DriverId { get; set; }
 
